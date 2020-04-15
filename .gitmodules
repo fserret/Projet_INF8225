@@ -1,0 +1,3 @@
+[submodule "noreward-rl"]
+	path = noreward-rl
+	url = https://github.com/fserret/noreward-rl.git
