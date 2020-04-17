@@ -1,0 +1,3 @@
+[submodule "random-network-distillation"]
+	path = random-network-distillation
+	url = https://github.com/fserret/random-network-distillation.git
