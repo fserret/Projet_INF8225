@@ -21,7 +21,7 @@ Nous souhaitions voir si la combinaison de cette méthode avec de la curiosité,
 Contrairement a ce qui été prévu et dû a un manque de temps pour l'implémentation de la méthode SQIL(car repository github utilisable introuvable),  nous avons décidé de définir un reward intrinsèque guidée par les demonstrations d'un agent expert. Pour ce faire nous avons utilisée une méthode similaire au pseudo-count de la mémoire épisodique de l'agent NGU mais pour comparée les observations de notre agent avec celles des démonstrations de notre agent expert.
 Par manque de temps, et comme nous nous intéressons ici à ce que les états soit similaire nous avons utilisée directement les produit scalaire entre les vecteurs de features crées par le random target network du modèle en cours d'entrainement comme kernel de similarité, ensuite nous combinons le reward ainsi obtenu avec le reward de curiosité comme suit:
 
-<p align="center"><img src="/tex/b153a8b8ee88af8b6f5f4ced70b82de1.svg?invert_in_darkmode&sanitize=true" align=middle width=466.918782pt height=39.9275514pt/></p>
+<p align="center"><img src="/tex/23a46163c7727cc7a0b3c176431b525d.svg?invert_in_darkmode&sanitize=true" align=middle width=465.5312442pt height=39.9275514pt/></p>
 
 <p align="center"><img src="/tex/e7153f2882dfe87e385ef326cec697f6.svg?invert_in_darkmode&sanitize=true" align=middle width=462.2780118pt height=16.438356pt/></p>
 
