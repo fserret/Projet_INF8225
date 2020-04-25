@@ -22,7 +22,7 @@ Contrairement a ce qui été prévu et dû a un manque de temps pour l'implémen
 Par manque de temps, et comme nous nous intéressons ici à ce que les états soit similaire nous avons utilisée directement les produit scalaire entre les vecteurs de features crées par le random target network du modèle en cours d'entrainement comme kernel de similarité, ensuite nous combinons le reward ainsi obtenu avec le reward de curiosité comme suit:
 
 \begin{equation}
-r_{im} = \frac{\sum_{v\in \text{Demonstrations}} X_obs\cdot v}{|\text{Demonstrations}|}
+r_{im} = \frac{\sum_{v\in \text{Demonstrations}} X_{obs}\cdot v}{|\text{Demonstrations}|}
 \end{equation}
 
 \begin{equation}
