@@ -1,3 +1,6 @@
 [submodule "random-network-distillation"]
 	path = random-network-distillation
 	url = https://github.com/fserret/random-network-distillation.git
+[submodule "RapportProjet_INF8225"]
+	path = RapportProjet_INF8225
+	url = https://github.com/Meteor-Furet/RapportProjet_INF8225.git
