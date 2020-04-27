@@ -30,3 +30,6 @@ Le code utilisé/developpé dans ce repository est basé sur le repository githu
 https://github.com/openai/random-network-distillation
 
 
+# Testing code
+run_imitation_agent_colab.ipynb can be used to create a suitable python environment and run the imitation agent.
+
