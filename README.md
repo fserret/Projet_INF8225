@@ -31,5 +31,5 @@ https://github.com/openai/random-network-distillation
 
 
 # Testing code
-run_imitation_agent_colab.ipynb can be used to create a suitable python environment and run the imitation agent.
-Note: Due to the limited duration of colab instance, all the training reported was done locally using a GTX 1070, 16gb of RAM and a core i7 on Ubuntu 18.04, the notebook is only for code testing and not actual training of the agent
+run_imitation_agent_colab.ipynb and run_curiosityonly_agent_colab.ipynb can be used to create a suitable python environment and run the imitation agent and the original RND agent respectively with 8 simultaneous environments and the other settings set to the RND default settings.
+Note: Due to the limited duration of colab instance, the training of the expert agent was done locally using a GTX 1070, 16gb of RAM and a core i7 on Ubuntu 18.04, the notebooks were used for the comparison of our model with the original Random Networkd Distillation agent.
